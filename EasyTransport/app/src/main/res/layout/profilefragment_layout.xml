@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/colorPrimaryLight"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/main_row"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="@dimen/profile_header_height"
+        android:weightSum="3">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/UsPic"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/placeholder"
+        android:layout_margin="@dimen/circle_image_margin"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/UsName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/profile_text_size"
+        android:text="UserName"
+        android:layout_marginTop="@dimen/profile_text_marginTOP_BOTTOM"
+        android:layout_marginBottom="@dimen/profile_text_marginTOP_BOTTOM"
+        android:layout_marginLeft="@dimen/profile_text_marginLEFT_RIGHT"
+        android:layout_marginRight="@dimen/profile_text_marginLEFT_RIGHT"
+        android:textColor="@color/colorTextIcons"
+        android:layout_weight="2"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/passwchange"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:text="@string/cahnge_password"
+        android:textColor="@color/colorTextIcons"
+        android:background="#FF9E57"
+        android:textSize="@dimen/button_text_size"
+        android:layout_below="@+id/main_row"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="@dimen/button_margin_between"
+        android:layout_alignRight="@+id/fakeView"
+        android:elevation="2dp" />
+    <View android:id="@+id/fakeView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"/>
+    <Button
+        android:id="@+id/discon"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:layout_margin="@dimen/button_margin_between"
+        android:text="@string/disconnect"
+        android:textColor="@color/colorTextIcons"
+        android:background="#FF9E57"
+        android:textSize="@dimen/button_text_size"
+        android:layout_below="@+id/main_row"
+        android:layout_alignLeft="@+id/fakeView"
+        android:layout_alignParentRight="true"
+        android:elevation="2dp"/>
+
+    <TextView
+        android:id="@+id/visited_text"
+        android:layout_below="@id/discon"
+        android:text="@string/recently_visisted"
+        android:textSize="@dimen/recently_visited_text_size"
+        android:textAlignment="center"
+        android:paddingTop="5dp"
+        android:textStyle="bold"
+        android:background="@color/colorPrimaryLight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:paddingTop="5dp"
+        android:id="@+id/rview"
+        android:layout_below="@id/visited_text"
+        android:background="@color/colorPrimaryLight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>

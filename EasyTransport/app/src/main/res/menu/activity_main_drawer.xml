@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/avatar_login"
+            android:title="@string/login" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_library_add_black"
+            android:title="@string/add_bus_station" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_face_black"
+            android:title="@string/prfile" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_map_black"
+            android:title="@string/map" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/search"
+            android:title="@string/search" />
+
+    </group>
+
+</menu>

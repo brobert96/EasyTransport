@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fadeScrollbars="true"
+    android:background="@drawable/add_new_bus_background">
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/newStationText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:padding="@dimen/cardText_text_Padding"
+        android:textColor="@color/colorTextIcons"/>
+    
+    <EditText
+        android:id="@+id/latitude"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/form_size"
+        android:textSize="@dimen/edit_text_text_size"
+        android:hint="43.1234"
+        android:textColorHint="@color/colorPrimaryLight"
+        android:textColor="@color/colorTextIcons"
+        android:layout_marginTop="@dimen/edit_text_margin"
+        android:layout_marginLeft="@dimen/edit_text_margin"
+        android:layout_marginRight="@dimen/edit_text_margin" />
+    <EditText
+        android:id="@+id/longitude"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/form_size"
+        android:textSize="@dimen/edit_text_text_size"
+        android:hint="24.1234"
+        android:textColor="@color/colorTextIcons"
+        android:textColorHint="@color/colorPrimaryLight"
+        android:layout_marginTop="@dimen/edit_text_margin"
+        android:layout_marginLeft="@dimen/edit_text_margin"
+        android:layout_marginRight="@dimen/edit_text_margin"/>
+    <EditText
+        android:id="@+id/station_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/form_size"
+        android:textSize="@dimen/edit_text_text_size"
+        android:hint="@string/station_name_hint"
+        android:textColor="@color/colorTextIcons"
+        android:textColorHint="@color/colorPrimaryLight"
+        android:layout_marginTop="@dimen/edit_text_margin"
+        android:layout_marginLeft="@dimen/edit_text_margin"
+        android:layout_marginRight="@dimen/edit_text_margin"/>
+    <EditText
+        android:id="@+id/buses"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/form_size"
+        android:textSize="@dimen/edit_text_text_size"
+        android:hint="26b,15,23..."
+        android:textColor="@color/colorTextIcons"
+        android:textColorHint="@color/colorPrimaryLight"
+        android:layout_marginTop="@dimen/edit_text_margin"
+        android:layout_marginLeft="@dimen/edit_text_margin"
+        android:layout_marginRight="@dimen/edit_text_margin"
+        android:layout_marginBottom="@dimen/edit_text_margin"/>
+    <Button
+        android:id="@+id/send_station_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginLeft="@dimen/button_margin_left_right"
+        android:layout_marginRight="@dimen/button_margin_left_right"
+        android:layout_marginTop="@dimen/button_margin_left_right"
+        android:background="#FF9E57"
+        android:textSize="@dimen/button_text_size"
+        android:text="@string/send"
+        android:textColor="@color/colorTextIcons"/>
+
+    <Button
+        android:id="@+id/new_stations_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginLeft="@dimen/button_margin_left_right"
+        android:layout_marginRight="@dimen/button_margin_left_right"
+        android:layout_marginTop="@dimen/button_margin_left_right"
+        android:textSize="@dimen/button_text_size"
+        android:visibility="gone"
+        android:background="#FF9E57"
+        android:text="List of new stations"
+        android:textColor="@color/colorTextIcons"
+        tools:visibility="visible"/>
+
+</LinearLayout>
+</ScrollView>

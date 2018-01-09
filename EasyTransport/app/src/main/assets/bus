@@ -1,0 +1,677 @@
+{
+    "admins" : [ null, "bR3kF0zzHbVJXcZ5yw5NZhNvjDF3" ],
+    "busLanes" : {
+        "26" : {
+            "middle" : "5687680",
+            "waypoints" : "5685859,5686429,5686706,5686810,5686664,5686340,5686400,5685803,5686170,5686548,5686654,5687207,5687680,5687239,5687026,5686635,5686524,5686436,5685805,5686110,5686322,5686611,5686838,5686788,5686338,5685859"
+        },
+        "27" : {
+            "middle" : "5688500",
+            "waypoints" : "5685859,5686345,5686191,5685959,5685674,5685566,5685600,5686170,5686727,5687261,5688128,5688500,5688115,5687897,5687399,5686826,5686436,5685805,5685563,5685657,5686319,5686338,5685859"
+        },
+        "44" : {
+            "middle" : "5681148",
+            "waypoints" : "5685859,5686429,5686706,5686810,5686664,5686340,5686159,5686048,5685674,5685566,5685600,5685378,5685236,5684546,5684495,5684092,5683445,5682929,5682282,5681743,5681139,5681148,5681776,5682393,5682928,5683485,5684009,5684551,5684631,5685108,5685400,5685590,5685563,5685657,5686043,5686166,5686611,5686824,5686788,5686338,5685859"
+        },
+        "17" : {
+            "middle" : "5686876",
+            "waypoints" : "5681148,5681776,5682393,5682928,5683485,5684009,5684551,5685198,5685805,5686110,5686322,5686319,5686429,5686706,5686876,5686345,5686340,5686400,5685803,5685142,5684495,5684092,5683445,5682929,5682282,5681743,5681139,5681148"
+        }
+    },
+    "busStations" : {
+        "5681139" : {
+            "buses" : "2,4,44",
+            "latitude" : "46.511745",
+            "longitude" : "24.510688",
+            "name" : "Statia Combinat"
+        },
+        "5681148" : {
+            "buses" : "2,4,44",
+            "latitude" : "46.511689",
+            "longitude" : "24.511034",
+            "name" : "Statia ERP"
+        },
+        "5681743" : {
+            "buses" : "16,44,4,17",
+            "latitude" : "46.515163",
+            "longitude" : "24.517581",
+            "name" : "Statia Metro"
+        },
+        "5681776" : {
+            "buses" : "2,4",
+            "latitude" : "46.515248",
+            "longitude" : "24.518185",
+            "name" : "Statia Metro"
+        },
+        "5682282" : {
+            "buses" : "16,44,4,17",
+            "latitude" : "46.518238",
+            "longitude" : "24.523678",
+            "name" : "Statia Chimie"
+        },
+        "5682393" : {
+            "buses" : "16,44,4,17,18",
+            "latitude" : "46.518743",
+            "longitude" : "24.525224",
+            "name" : "Statia Conserve"
+        },
+        "5682919" : {
+            "buses" : "2",
+            "latitude" : "46.523775",
+            "longitude" : "24.526528",
+            "name" : "Statia Ambient"
+        },
+        "5682928" : {
+            "buses" : "2,4,44",
+            "latitude" : "46.521733",
+            "longitude" : "24.531418",
+            "name" : "Statia Record"
+        },
+        "5682929" : {
+            "buses" : "44,16,17,4",
+            "latitude" : "46.521897",
+            "longitude" : "24.531064",
+            "name" : "Statia Record 2"
+        },
+        "5683445" : {
+            "buses" : "2,4,44",
+            "latitude" : "46.524804",
+            "longitude" : "24.537008",
+            "name" : "Statia Traian Vuia"
+        },
+        "5683485" : {
+            "buses" : "2,4,44",
+            "latitude" : "46.524893",
+            "longitude" : "24.537759",
+            "name" : "Statia Prodcomplex"
+        },
+        "5683579" : {
+            "buses" : "2",
+            "latitude" : "46.527326",
+            "longitude" : "24.534484",
+            "name" : "Statia Complexul Transilvania"
+        },
+        "5683601" : {
+            "buses" : "1,",
+            "latitude" : "46.523985",
+            "longitude" : "24.542671",
+            "name" : "Statia Autogara Transport Local"
+        },
+        "5683914" : {
+            "buses" : "27,26,44",
+            "latitude" : "46.525159",
+            "longitude" : "24.547626",
+            "name" : "Statia Budiului"
+        },
+        "5684092" : {
+            "buses" : "2,4,44",
+            "latitude" : "46.528325",
+            "longitude" : "24.544711",
+            "name" : "Statia Autogara Voiajor"
+        },
+        "5684339" : {
+            "buses" : "2",
+            "latitude" : "46.532227",
+            "longitude" : "24.541797",
+            "name" : "Statia Fabrica de Zahar"
+        },
+        "5684495" : {
+            "buses" : "2,3,4,44",
+            "latitude" : "46.530769",
+            "longitude" : "24.548928",
+            "name" : "Statia Gara CFR"
+        },
+        "5684546" : {
+            "buses" : "44",
+            "latitude" : "46.529059",
+            "longitude" : "24.554092",
+            "name" : "Statia Ciucas"
+        },
+        "5684551" : {
+            "buses" : "2,4,44",
+            "latitude" : "46.531019",
+            "longitude" : "24.549743",
+            "name" : "Statia Trecatorul"
+        },
+        "5684631" : {
+            "buses" : "1,4,44",
+            "latitude" : "46.529478",
+            "longitude" : "24.555221",
+            "name" : "Statia Olimp"
+        },
+        "5684778" : {
+            "buses" : "27,26,44",
+            "latitude" : "46.533278",
+            "longitude" : "24.550095",
+            "name" : "Statia Piata Garii"
+        },
+        "5684933" : {
+            "buses" : "2",
+            "latitude" : "46.536158",
+            "longitude" : "24.547266",
+            "name" : "Statia Nicolae Balcescu"
+        },
+        "5685042" : {
+            "buses" : "2",
+            "latitude" : "46.538838",
+            "longitude" : "24.543798",
+            "name" : "Statia Gimnaziul Nicolae Balcescu"
+        },
+        "5685108" : {
+            "buses" : "1,4,44",
+            "latitude" : "46.532829",
+            "longitude" : "24.559169",
+            "name" : "Statia Cosmos"
+        },
+        "5685112" : {
+            "buses" : "16",
+            "latitude" : "46.539403",
+            "longitude" : "24.544211",
+            "name" : "Statia Salcamilor"
+        },
+        "5685142" : {
+            "buses" : "2,3",
+            "latitude" : "46.535227",
+            "longitude" : "24.554507",
+            "name" : "Statia Mocca"
+        },
+        "5685198" : {
+            "buses" : "2,3",
+            "latitude" : "46.535529",
+            "longitude" : "24.555172",
+            "name" : "Statia Mocca"
+        },
+        "5685236" : {
+            "buses" : "1,4,44",
+            "latitude" : "46.542772",
+            "longitude" : "24.539514",
+            "name" : "Statia Dambul Pietros"
+        },
+        "5685239" : {
+            "buses" : "2",
+            "latitude" : "46.542789",
+            "longitude" : "24.539539",
+            "name" : "Statia Ady Endre"
+        },
+        "5685378" : {
+            "buses" : "1,4,44",
+            "latitude" : "46.536090",
+            "longitude" : "24.558283",
+            "name" : "Statia Ciresului"
+        },
+        "5685400" : {
+            "buses" : "1,4,44",
+            "latitude" : "46.536230",
+            "longitude" : "24.558498",
+            "name" : "Statia Avram Iancu"
+        },
+        "5685563" : {
+            "buses" : "27,44",
+            "latitude" : "46.53491",
+            "longitude" : "24.565505",
+            "name" : "Statia Izvorul Rece"
+        },
+        "5685566" : {
+            "buses" : "27,44",
+            "latitude" : "46.534844",
+            "longitude" : "24.56572",
+            "name" : "Statia Izvorul Rece"
+        },
+        "5685590" : {
+            "buses" : "27,44",
+            "latitude" : "46.536747",
+            "longitude" : "24.561942",
+            "name" : "Statia Predeal"
+        },
+        "5685600" : {
+            "buses" : "27,44",
+            "latitude" : "46.536771",
+            "longitude" : "24.562137",
+            "name" : "Statia Predeal"
+        },
+        "5685637" : {
+            "buses" : "16",
+            "latitude" : "46.542568",
+            "longitude" : "24.549757",
+            "name" : "Statia Savinest"
+        },
+        "5685657" : {
+            "buses" : "27,44",
+            "latitude" : "46.533521",
+            "longitude" : "24.570966",
+            "name" : "Statia Panduru"
+        },
+        "5685674" : {
+            "buses" : "27,44",
+            "latitude" : "46.533725",
+            "longitude" : "24.570917",
+            "name" : "Statia Panduru"
+        },
+        "5685728" : {
+            "buses" : "3",
+            "latitude" : "46.541092",
+            "longitude" : "24.555353",
+            "name" : "Statia Iuliu Maniu"
+        },
+        "5685736" : {
+            "buses" : "3",
+            "latitude" : "46.541092",
+            "longitude" : "24.555556",
+            "name" : "Statia Bulgarilor"
+        },
+        "5685803" : {
+            "buses" : "27,26,44",
+            "latitude" : "46.539634",
+            "longitude" : "24.560525",
+            "name" : "Statia Izvor"
+        },
+        "5685805" : {
+            "buses" : "27,26,17,19,30",
+            "latitude" : "46.539382",
+            "longitude" : "24.561144",
+            "name" : "Staita Poli 2"
+        },
+        "5685859" : {
+            "buses" : "27,26,44",
+            "latitude" : "46.523525",
+            "longitude" : "24.598753",
+            "name" : "Statia Sapientia"
+        },
+        "5685959" : {
+            "buses" : "27,26,44",
+            "latitude" : "46.533297",
+            "longitude" : "24.578846",
+            "name" : "Statia Mari Cristi"
+        },
+        "5685963" : {
+            "buses" : "27,26,44",
+            "latitude" : "46.533057",
+            "longitude" : "24.579498",
+            "name" : "Statia Mari Cristi"
+        },
+        "5686048" : {
+            "buses" : "27,26,44",
+            "latitude" : "46.535592",
+            "longitude" : "24.575752",
+            "name" : "Statia Macul Rosu"
+        },
+        "5686110" : {
+            "buses" : "27,26,44",
+            "latitude" : "46.538655",
+            "longitude" : "24.570248",
+            "name" : "Statia Europa"
+        },
+        "5686159" : {
+            "buses" : "44",
+            "latitude" : "46.535388",
+            "longitude" : "24.57892",
+            "name" : "Statia Moldovei"
+        },
+        "5686161" : {
+            "buses" : "27,26,44",
+            "latitude" : "46.526438",
+            "longitude" : "24.599449",
+            "name" : "Statia Business Hotel"
+        },
+        "5686170" : {
+            "buses" : "1,2,4,27,26",
+            "latitude" : "46.543707",
+            "longitude" : "24.560139",
+            "name" : "Statia Piata Trandafirilor"
+        },
+        "5686178" : {
+            "buses" : "3",
+            "latitude" : "46.546245",
+            "longitude" : "24.554526",
+            "name" : "Statia Piata de zi"
+        },
+        "5686190" : {
+            "buses" : "3",
+            "latitude" : "46.546319",
+            "longitude" : "24.554660",
+            "name" : "Statia Cuza Voda"
+        },
+        "5686191" : {
+            "buses" : "27",
+            "latitude" : "46.534221",
+            "longitude" : "24.582388",
+            "name" : "Statia Pandurilor"
+        },
+        "5686319" : {
+            "buses" : "27,17",
+            "latitude" : "46.534942",
+            "longitude" : "24.583847",
+            "name" : "Statia Fortuna"
+        },
+        "5686322" : {
+            "buses" : "27,26,44",
+            "latitude" : "46.538742",
+            "longitude" : "24.575228",
+            "name" : "Statia Busteni"
+        },
+        "5686338" : {
+            "buses" : "27,26,44",
+            "latitude" : "46.532561",
+            "longitude" : "24.589772",
+            "name" : "Statia Corina"
+        },
+        "5686340" : {
+            "buses" : "26,44",
+            "latitude" : "46.535614",
+            "longitude" : "24.582825",
+            "name" : "Statia Fortuna"
+        },
+        "5686345" : {
+            "buses" : "27,26,44",
+            "latitude" : "46.533281",
+            "longitude" : "24.588292",
+            "name" : "Statia Corina"
+        },
+        "5686400" : {
+            "buses" : "27,26,44",
+            "latitude" : "46.539077",
+            "longitude" : "24.576347",
+            "name" : "Statia Lalelelor"
+        },
+        "5686429" : {
+            "buses" : "27,26,44",
+            "latitude" : "46.533528",
+            "longitude" : "24.589758",
+            "name" : "Statia Regele Ferdinand"
+        },
+        "5686436" : {
+            "buses" : "27,26,20,18,19,30,1,2,4",
+            "latitude" : "46.545676",
+            "longitude" : "24.562109",
+            "name" : "Statia Piata teatrului"
+        },
+        "5686479" : {
+            "buses" : "3",
+            "latitude" : "46.549680",
+            "longitude" : "24.554005",
+            "name" : "Statia Sala Polivalenta"
+        },
+        "5686524" : {
+            "buses" : "4,10",
+            "latitude" : "46.548264",
+            "longitude" : "24.558349",
+            "name" : "Statia Evreilor Martirii"
+        },
+        "5686548" : {
+            "buses" : "10,26",
+            "latitude" : "46.547582",
+            "longitude" : "24.560496",
+            "name" : "Statia Evidenta Populatiei"
+        },
+        "5686549" : {
+            "buses" : "27,26,44",
+            "latitude" : "46.547586",
+            "longitude" : "24.560504",
+            "name" : "Statia Calarasilor"
+        },
+        "5686611" : {
+            "buses" : "27,26,44",
+            "latitude" : "46.537764",
+            "longitude" : "24.584505",
+            "name" : "Statia Poclos"
+        },
+        "5686635" : {
+            "buses" : "4,10,26",
+            "latitude" : "46.550549",
+            "longitude" : "24.555815",
+            "name" : "Statia Electrica"
+        },
+        "5686654" : {
+            "buses" : "4,10,26",
+            "latitude" : "46.550727",
+            "longitude" : "24.555861",
+            "name" : "Statia Cocosul de Aur"
+        },
+        "5686664" : {
+            "buses" : "27,26,44",
+            "latitude" : "46.538463",
+            "longitude" : "24.584202",
+            "name" : "Statia Infratirii"
+        },
+        "5686706" : {
+            "buses" : "26,44",
+            "latitude" : "46.534895",
+            "longitude" : "24.593386",
+            "name" : "Statia Solidaritatea"
+        },
+        "5686727" : {
+            "buses" : "27,26,44",
+            "latitude" : "46.547752",
+            "longitude" : "24.564455",
+            "name" : "Statia Revolutiei"
+        },
+        "5686788" : {
+            "buses" : "27,26,44",
+            "latitude" : "46.536710",
+            "longitude" : "24.591242",
+            "name" : "Statia Piata Diamant"
+        },
+        "5686807" : {
+            "buses" : "1,2,",
+            "latitude" : "46.546549",
+            "longitude" : "24.569168",
+            "name" : "Statia Papiu Ilarian"
+        },
+        "5686810" : {
+            "buses" : "27,26,44",
+            "latitude" : "46.537315",
+            "longitude" : "24.590377",
+            "name" : "Statia Piata Diamant"
+        },
+        "5686826" : {
+            "buses" : "10,27",
+            "latitude" : "46.546701",
+            "longitude" : "24.569288",
+            "name" : "Statia Nicolae Iorga"
+        },
+        "5686838" : {
+            "buses" : "27,26,44",
+            "latitude" : "46.539100",
+            "longitude" : "24.586993",
+            "name" : "Statia Tudor Vladimirescu"
+        },
+        "5686876" : {
+            "buses" : "27,26,44",
+            "latitude" : "46.535741",
+            "longitude" : "24.595584",
+            "name" : "Statia Centrofarm"
+        },
+        "5687026" : {
+            "buses" : "26",
+            "latitude" : "46.553652",
+            "longitude" : "24.558236",
+            "name" : "Statia Darina"
+        },
+        "5687200" : {
+            "buses" : "3,4,10",
+            "latitude" : "46.559900",
+            "longitude" : "24.548161",
+            "name" : "Statia Voinicelor"
+        },
+        "5687207" : {
+            "buses" : "26",
+            "latitude" : "46.554706",
+            "longitude" : "24.560239",
+            "name" : "Statia Aleea Carpati"
+        },
+        "5687239" : {
+            "buses" : "26",
+            "latitude" : "46.554954",
+            "longitude" : "24.560447",
+            "name" : "Statia Aleea Carpati"
+        },
+        "5687261" : {
+            "buses" : "10,27",
+            "latitude" : "46.552260",
+            "longitude" : "24.567156",
+            "name" : "Statia Piata Republicii"
+        },
+        "5687279" : {
+            "buses" : "1,2",
+            "latitude" : "46.552511",
+            "longitude" : "24.567020",
+            "name" : "Statia Gara Mica"
+        },
+        "5687328" : {
+            "buses" : "27,26,44",
+            "latitude" : "46.539100",
+            "longitude" : "24.598919",
+            "name" : "Statia Masini de Calcul"
+        },
+        "5687399" : {
+            "buses" : "10,27",
+            "latitude" : "46.550855",
+            "longitude" : "24.573734",
+            "name" : "Statia Braseria Universitatii"
+        },
+        "5687424" : {
+            "buses" : "4,10",
+            "latitude" : "46.562515",
+            "longitude" : "24.547626",
+            "name" : "Statia Unirii"
+        },
+        "5687458" : {
+            "buses" : "4,10",
+            "latitude" : "46.562795",
+            "longitude" : "24.547819",
+            "name" : "Statia Unirii"
+        },
+        "5687483" : {
+            "buses" : "1,2",
+            "latitude" : "46.551286",
+            "longitude" : "24.574811",
+            "name" : "Statia Mihai Eminescu"
+        },
+        "5687680" : {
+            "buses" : "26",
+            "latitude" : "46.557607",
+            "longitude" : "24.564147",
+            "name" : "Strandul 1 Mai"
+        },
+        "5687897" : {
+            "buses" : "10,27",
+            "latitude" : "46.554178",
+            "longitude" : "24.578287",
+            "name" : "Statia Clinica de Oncologie"
+        },
+        "5687923" : {
+            "buses" : "1,2",
+            "latitude" : "46.554276",
+            "longitude" : "24.578681",
+            "name" : "Statia Clinica O.R.L."
+        },
+        "5688115" : {
+            "buses" : "10,27",
+            "latitude" : "46.555704",
+            "longitude" : "24.580101",
+            "name" : "Statia Parcul Eroilor"
+        },
+        "5688128" : {
+            "buses" : "10,27",
+            "latitude" : "46.557686",
+            "longitude" : "24.575881",
+            "name" : "Statia 22 Decembrie 1989"
+        },
+        "5688156" : {
+            "buses" : "1,2,26",
+            "latitude" : "46.557957",
+            "longitude" : "24.575926",
+            "name" : "Statia Secuilor Martirii"
+        },
+        "5688500" : {
+            "buses" : "10,27",
+            "latitude" : "46.559167",
+            "longitude" : "24.581556",
+            "name" : "Statia Spitalul Judetean"
+        },
+        "5688522" : {
+            "buses" : "1,2",
+            "latitude" : "46.559372",
+            "longitude" : "24.581613",
+            "name" : "Statia SMURD"
+        },
+        "5689076" : {
+            "buses" : "27,26,44",
+            "latitude" : "46.563851",
+            "longitude" : "24.584863",
+            "name" : "Statia Pasajul Ostrovului"
+        },
+        "5689513" : {
+            "buses" : "27,26,44",
+            "latitude" : "46.566501",
+            "longitude" : "24.589445",
+            "name" : "Statia Capalna"
+        },
+        "5689536" : {
+            "buses" : "27,26,44",
+            "latitude" : "46.566720",
+            "longitude" : "24.589506",
+            "name" : "Statia Capalna"
+        },
+        "5690253" : {
+            "buses" : "27,26,44",
+            "latitude" : "46.571247",
+            "longitude" : "24.596622",
+            "name" : "Statia Gradinita"
+        },
+        "5690280" : {
+            "buses" : "27,26,44",
+            "latitude" : "46.571372",
+            "longitude" : "24.597001",
+            "name" : "Statia Gradinita"
+        },
+        "5691040" : {
+            "buses" : "27,26,44",
+            "latitude" : "46.576061",
+            "longitude" : "24.604797",
+            "name" : "Statia Deal Sf. Gheorghe"
+        },
+        "5691500" : {
+            "buses" : "27,26,44",
+            "latitude" : "46.579869",
+            "longitude" : "24.607300",
+            "name" : "Statia Subdeal"
+        },
+        "5691547" : {
+            "buses" : "27,26,44",
+            "latitude" : "46.580276",
+            "longitude" : "24.607512",
+            "name" : "Statia Subdeal"
+        },
+        "5691893" : {
+            "buses" : "27,26,44",
+            "latitude" : "46.582456",
+            "longitude" : "24.610957",
+            "name" : "Statia Baile Sarate"
+        },
+        "5691917" : {
+            "buses" : "27,26,44",
+            "latitude" : "46.582727",
+            "longitude" : "24.610926",
+            "name" : "Statia Baile Sarate"
+        },
+        "5693494" : {
+            "buses" : "27,26,44",
+            "latitude" : "46.593509",
+            "longitude" : "24.624688",
+            "name" : "Statia Selgros"
+        }
+    },
+    "userQueries" : {
+        "W6tCGcSCtPZWWZmE5SlgFZofam42" : {
+            "1512646622637" : "ChIJQeXscRq3S0cR5mbzDuOWijw"
+        },
+        "bR3kF0zzHbVJXcZ5yw5NZhNvjDF3" : {
+            "1512724570805" : "ChIJLRSO9Md9yUARCerEShC37Mw",
+            "1512724740194" : "ChIJQeXscRq3S0cR5mbzDuOWijw",
+            "1512725171726" : "ChIJuwsXpUe2S0cRh1OueS-poEs",
+            "1512735486740" : "ChIJBejbMau3S0cR_AuPNNdfWJA",
+            "1512735755357" : "ChIJCXDeg0G2S0cRiwgFnU2rmPk"
+        }
+    }
+}
